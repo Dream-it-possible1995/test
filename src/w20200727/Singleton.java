@@ -1,3 +1,5 @@
+package w20200727;
+
 public class Singleton {
     private static volatile Singleton instance;
 

@@ -1,3 +1,8 @@
+package w20200727;
+
+import w20200727.FooAException;
+import w20200727.FooBException;
+
 public class Ship {
     public static void main(String[] args) {
         f();

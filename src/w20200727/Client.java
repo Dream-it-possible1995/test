@@ -1,3 +1,8 @@
+package w20200727;
+
+import w20200727.A;
+import w20200727.B;
+
 public class Client {
 
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
+package w20200727;
+
 import java.lang.management.ClassLoadingMXBean;
 import java.lang.management.ManagementFactory;
-import java.lang.management.MemoryMXBean;
-import java.lang.management.MemoryUsage;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.text.DecimalFormat;
@@ -15,7 +15,7 @@ public class RunJavaDemo {
 
             URL url = new URL("file:/C:/Users/wangwc/IdeaProjects/glodon/src/");
             URLClassLoader urlCl = new URLClassLoader(new URL[]{url});
-            urlCl.loadClass("Singleton");
+            urlCl.loadClass("w20200727.Singleton");
 
             System.out.println("当前加载到 Java 虚拟机中的类的数量:"+classLoadingMXBean.getLoadedClassCount());
 
